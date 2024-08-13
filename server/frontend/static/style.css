@@ -124,3 +124,30 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-form {
+    padding: 20px;
+    align-items: center;
+}
+
+.contact-form div {
+    width: 290px;
+}
+
+.contact-form * {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 2px;
+    width: 270px;
+}
+
+.contact-info { 
+    padding: 20px;
+    align-items: center;
+    padding-top: 0;
+}
+.contact-info * {
+    color: #6161d4;
+    margin: 2px;
+    padding: 1px;
+}
