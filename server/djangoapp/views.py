@@ -125,6 +125,8 @@ def add_review(request):
                 "status": 401,
                 "message": "Error in posting review"
             })
+        finally:
+            print("add_review request successful!")
     else:
         return JsonResponse({
             "status": 403,
